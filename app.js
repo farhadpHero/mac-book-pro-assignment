@@ -1,7 +1,7 @@
 function productPrice(productId, price) {
     document.getElementById(productId).innerText = price;
     getValues();
-    finaTotal();
+    finalTotal();
 };
 
 function getValues() {
@@ -14,7 +14,7 @@ function getValues() {
     return totalPrice;
 };
 
-function finaTotal() {
+function finalTotal() {
     document.getElementById('final-price').innerText = getValues();
 };
 
