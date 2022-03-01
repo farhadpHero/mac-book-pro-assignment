@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mac Book Pro</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="container">
+
+            <div class="row">
+
+                <!-- mac image  part start -->
+                <div class="col-md-6 col-sm-12">
+                    <div>
+                        <img class="w-75" src="images/mac.png" alt="mac">
+                    </div>
+                </div>
+
+                <!-- mac image  part end -->
+
+                <!-- mac product details part start -->
+                <div class="col-md-6 col-sm-12">
+
+                    <div>
+                        <!-- about macbook start -->
+                        <div>
+                            <h1>Customize your Blue 24-inch <br> iMac with Apple M1 chip.</h1>
+                            <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency <br> cores,
+                                7-core GPU, and 16- core Neural Engine 8GB undified memory 256GB <br> SSD storage Two
+                                Thunderbolt/USB 4 ports Magic Mouse Magic Keyboard - <br> US English.</p>
+                        </div>
+                        <!-- about macbook end -->
+
+                        <!-- memory button start -->
+                        <div class="button-style">
+                            <h3>Memory</h3>
+                            <div>
+                                <button id="eight-gb-memory" class="button-hover-style rounded-2 me-2 ">8GB unified
+                                    memory</button>
+                                <button id="sixteen-gb-memory" class="button-hover-style rounded-2">16GB unified
+                                    memory</button>
+                            </div>
+                        </div>
+                        <!-- memory button  end-->
+
+                        <!-- storage button start -->
+                        <div class="button-style">
+                            <h3>Storage</h3>
+                            <div>
+                                <button id="twoHundradFifttySix-gb-stroage"
+                                    class="button-hover-style rounded-2 me-2">256GB SSD storage</button>
+                                <button id="fiveHundradtwelve-gb-stroage"
+                                    class="button-hover-style rounded-2 me-2">512GB SSD storage</button>
+                                <button id="one-tb-stroage" class="button-hover-style rounded-2">1TB SSD
+                                    storage</button>
+                            </div>
+                        </div>
+                        <!-- storage button end -->
+
+                        <!--delivery option button start -->
+                        <div class="button-style">
+                            <h3>Choose your delivery option</h3>
+                            <div>
+                                <button id="free-delivery" class="button-hover-style rounded-2 me-2">Friday, Aug 25 FREE
+                                    Prime Delivery</button>
+                                <button id="chargable-delivery" class="button-hover-style rounded-2">Monday, Aug 21
+                                    Delivery charge $20</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--delivery option button end -->
+
+
+
+                    <!-- price checkout part  start-->
+
+                    <!-- Best Price -->
+                    <div class="d-flex justify-content-between mt-5 border-bottom w-75">
+                        <h3>Best Price</h3>
+                        <h3>$<span id="best-price">1299</span> </h3>
+                    </div>
+
+                    <!-- Extra Memory Cost -->
+                    <div class="d-flex justify-content-between mt-5 border-bottom w-75">
+                        <h3>Extra Memory Cost</h3>
+                        <h3>$<span id="extra-memory">0</span></h3>
+                    </div>
+
+                    <!-- Extra Storage Cost -->
+                    <div class="d-flex justify-content-between mt-5 border-bottom w-75">
+                        <h3>Extra Storage Cost</h3>
+                        <h3>$<span id="extra-storage">0</span></h3>
+                    </div>
+
+                    <!-- Delivery charge -->
+                    <div class="d-flex justify-content-between mt-5 border-bottom border-4 border-dark w-75">
+                        <h3>Delivery charge</h3>
+                        <h3>$<span id="delivery-charge">0</span></h3>
+                    </div>
+
+                    <!-- Total Price -->
+                    <div class="d-flex justify-content-between mt-5 w-75">
+                        <h3>Total Price</h3>
+                        <h3>$<span id="total-price">1299</span></h3>
+                    </div>
+                    <!-- price checkout part  end-->
+
+                    <!-- extra part -->
+
+                    <!-- promo code use part  start-->
+
+                    <div class="mt-5">
+                        <h5>Add promo code</h5>
+                        <div class="d-flex justify-content-between  w-75">
+                            <input id="promo-input" class="w-75 p-3 border"
+                                placeholder="Please use 'stevekaku' for 20% discount." type="text">
+                            <button id="apply-button" class="w-25 ms-2 btn btn-danger">Apply</button>
+                        </div>
+
+                    </div>
+
+                    <!-- promo code use part  end-->
+
+                </div>
+
+            </div>
+            <!-- mac product details part end -->
+        </section>
+
+
+        <!-- second section part  -->
+
+        <section class="container">
+            <hr class=" border border-4 border-dark ">
+            <div>
+                <h2 class="text-center p-3 mb-5">Total : $<span id="final-price">1299</span></h2>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
